@@ -29,7 +29,7 @@ reset_timestep	0
 thermo 10
 thermo_style custom step pe lx ly lz press pxx pyy pzz c_eatoms 
 
-dump 1 all custom 1 dump.relax.1.* id type xs ys zs c_csym c_eng 
+dump 1 all custom 1 dump.fix.1.* id type xs ys zs c_csym c_eng 
 
 min_style cg
 minimize 1e-15 1e-15 5000 5000
